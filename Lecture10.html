@@ -1,0 +1,74 @@
+﻿﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>나의 웹페이지</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        p.cp {
+            text-align: center;
+            color: white;
+        }
+
+        #header {
+            background-color: yellow;
+            width: 100%;
+            height: 50px;
+        }
+
+        #nav {
+            width: 30%;
+            background-color: yellowgreen);
+            height: 400px;
+            float: left;
+        }
+
+        #content {
+            width: 70%;
+            background-color: royalblue;
+            float: right;
+            height: 400px;
+        }
+
+        #footer {
+            background-color: red;
+            width: 100%;
+            height: 50px;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header"> <h1>My Blog Page</h1> </div>
+
+        <div id="nav">
+            <h2>Links</h2>
+            <ul>
+                <li><a href="https://www.w3.org/">W3C</a></li>
+            </ul>
+            <ul>
+                <li><a href="https://www.mozilla.org/ko/">MOZILLA</a></li>
+            </ul>
+            <ul>
+                <li><a href="https://htmldog.com/">HTML Dogs</a></li>
+            </ul>
+            <img src="2021-10956.jpg" width="120" height="150" />
+            <p>홍길동</p>
+        </div>
+
+        <div id="content">
+            <h3>Semantic Tags</h3>
+            <p>시멘틱 요소(Semantic elements)들은 브라우저에게 요소의 의미나 목적을 명확하게 알려주는 요소이다.</p>
+            <h3>div와 span</h3>
+            <p>div은 "divide"의 약자로서 페이지를 논리적인 섹션으로 분리하는데 샤용되는 태그이다. span 요소는 인라인 요소로서 텍스트를 위한 컨테이너로 사용할 수 있다.</p>
+        </div>
+
+        <div id="footer"> <p class="cp">Copyright (c) 2013 Hong</p> </div>
+    </div>
+</body>
+</html>
